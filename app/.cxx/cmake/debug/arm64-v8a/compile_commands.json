@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyolov5ncnn_EXPORTS -isystem /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/include/ncnn  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -o CMakeFiles/yolov5ncnn.dir/yolov5ncnn_jni.cpp.o -c /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/yolov5ncnn_jni.cpp",
+  "file": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/yolov5ncnn_jni.cpp"
+}
+]

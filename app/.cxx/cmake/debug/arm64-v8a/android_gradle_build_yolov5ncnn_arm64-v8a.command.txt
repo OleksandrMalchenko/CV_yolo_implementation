@@ -1,0 +1,7 @@
+Executable : /Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a
+yolov5ncnn
+jvmArgs : 
+

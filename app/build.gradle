@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+apply plugin: 'de.undercouch.download'
+
+android {
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "org.tensorflow.lite.examples.detection"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            moduleName "ncnn"
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+    externalNativeBuild {
+        cmake {
+            version "3.10.2"
+            path file('src/main/jni/CMakeLists.txt')
+        }
+    }
+    ndkVersion '22.0.7026061'
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation files('libs/snpe-release.aar')
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+    testImplementation 'junit:junit:4.12'
+    implementation 'org.jetbrains:annotations:15.0'
+}

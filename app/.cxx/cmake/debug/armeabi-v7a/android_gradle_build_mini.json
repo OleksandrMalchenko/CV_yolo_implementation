@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnn.cmake",
+    "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnnConfig.cmake",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnn-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Debug-armeabi-v7a": {
+      "artifactName": "yolov5ncnn",
+      "buildCommand": "/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/armeabi-v7a\" yolov5ncnn",
+      "abi": "armeabi-v7a",
+      "output": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libyolov5ncnn.so",
+      "runtimeFiles": [
+        "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/lib/libncnn.a"
+      ]
+    }
+  }
+}
