@@ -149,24 +149,23 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
   public Pair<List<Recognition>, Integer> recognizeImage(final Bitmap bitmap, long ts) {
     Bitmap resizedBitmap = getResizedBitmap(bitmap, 320, 320);
     resizedBitmap.getPixels(intValues, 0, resizedBitmap.getWidth(), 0, 0, resizedBitmap.getWidth(), resizedBitmap.getHeight());
-        float[] input = new float[intValues.length * 3];
+    float[] input = new float[intValues.length * 3];
+    Log.d("snpe_engine", "input size" + inputSize);
+    for (int i = 0; i < inputSize; ++i) {
+        for (int j = 0; j < inputSize; ++j) {
+            final int idx = j * resizedBitmap.getWidth() + i;
+            final int batchIdx = idx * 3;
 
-        for (int i = 0; i < inputSize; ++i) {
-            for (int j = 0; j < inputSize; ++j) {
-                final int idx = j * bitmap.getWidth() + i;
-                final int batchIdx = idx * 3;
-
-                final float[] rgb = extractColorChannels(intValues[idx]);
-                input[batchIdx] = rgb[0];
-                input[batchIdx + 1] = rgb[1];
-                input[batchIdx + 2] = rgb[2];
-            }
+            final float[] rgb = extractColorChannels(intValues[idx]);
+            input[batchIdx] = rgb[0];
+            input[batchIdx + 1] = rgb[1];
+            input[batchIdx + 2] = rgb[2];
         }
+    }
     String inputTensorName = (String) network.getInputTensorsNames().toArray()[0];
 
     String[] outputTensorName = new String[1];
     outputTensorName[0] = (String) network.getOutputTensorsNames().toArray()[0];
-    Log.d("snpe_engine", "11111111: " + outputTensorName[0]);
 //    outputTensorName[1] = (String) network.getOutputTensorsNames().toArray()[1];
 //    outputTensorName[2] = (String) network.getOutputTensorsNames().toArray()[2];
 //    outputTensorName[3] = (String) network.getOutputTensorsNames().toArray()[3];
@@ -203,7 +202,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
         }
       }
     }
-    Log.d("snpe_engine", "11111: " + fboxes.getSize());
+
     float[] outputs = new float[Objects.requireNonNull(fboxes).getSize()];
 //    float[] scores = new float[Objects.requireNonNull(fscores).getSize()];
 //    float[] classes = new float[Objects.requireNonNull(fclasses).getSize()];
@@ -214,12 +213,14 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     float imgScaleX = (float)bitmap.getWidth() / PrePostProcessor.mInputWidth;
     float imgScaleY = (float)bitmap.getHeight() / PrePostProcessor.mInputHeight;
-    float ivScaleX = (float)mResultView.getWidth() / bitmap.getWidth();
-    float ivScaleY = (float)mResultView.getHeight() / bitmap.getHeight();
+//    float ivScaleX = (float)mResultView.getWidth() / bitmap.getWidth();
+//    float ivScaleY = (float)mResultView.getHeight() / bitmap.getHeight();
+    float ivScaleX = 0.0f;
+    float ivScaleY = 0.0f;
 
     final ArrayList<Result> results = PrePostProcessor.outputsToNMSPredictions(outputs, imgScaleX, imgScaleY, ivScaleX, ivScaleY, 0, 0);
-
-    final ArrayList<Recognition> recognitions = new ArrayList<>(boxes.length);
+    Log.d("snpe_engine", "2222222: " + results.size());
+    final ArrayList<Recognition> recognitions = new ArrayList<>(results.size());
 
     FloatTensor features = null;
 
@@ -227,58 +228,57 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     List<float[]> bboxes = new ArrayList<>();
     List<Float> out_scores = new ArrayList<>();
 
-    for(int i = 0;i<boxes.length;i = i + 4){
+    for(int i = 0; i < results.size(); i++) {
+      float x1 = results.get(i).rect.left;
+      float y1 = results.get(i).rect.top;
+      float x2 = results.get(i).rect.right;
+      float y2 = results.get(i).rect.bottom;
+      Log.d("snpe_engine", "x1, y1, x2, y2" + x1 + y1 + x2 + y2);
+      if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
+        RectF detection = new RectF(x1, y1, x2, y2);
 
-      if (scores[i/4] > 0.3f && classes[i/4]==0.f) {
-        float x1 = boxes[i+1] * inputSize;
-        float y1 = boxes[i] * inputSize;
-        float x2 = boxes[i+3] * inputSize;
-        float y2 = boxes[i+2] * inputSize;
-        if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
-          RectF detection = new RectF(x1, y1, x2, y2);
+        Bitmap croppedBitmap = getCroppedBitmap(detection);
 
-          Bitmap croppedBitmap = getCroppedBitmap(detection);
+        croppedBitmap = getResizedBitmap(croppedBitmap, 128, 128);
 
-          croppedBitmap = getResizedBitmap(croppedBitmap, 128, 128);
+        float[] emb_input = convertBitmapToFloat(croppedBitmap, is);
 
-          float[] emb_input = convertBitmapToFloat(croppedBitmap, is);
+        emb_tensor.write(emb_input, 0, emb_input.length);
 
-          emb_tensor.write(emb_input, 0, emb_input.length);
+        String inputTensorName1 = (String) emb_network.getInputTensorsNames().toArray()[0];
+        String[] outputTensorName1 = new String[1];
+        outputTensorName1[0] = (String) emb_network.getOutputTensorsNames().toArray()[0];
 
-          String inputTensorName1 = (String) emb_network.getInputTensorsNames().toArray()[0];
-          String[] outputTensorName1 = new String[1];
-          outputTensorName1[0] = (String) emb_network.getOutputTensorsNames().toArray()[0];
+        Map<String, FloatTensor> inputsMap1 = new HashMap<>();
+        inputsMap1.put(inputTensorName1, emb_tensor);
 
-          Map<String, FloatTensor> inputsMap1 = new HashMap<>();
-          inputsMap1.put(inputTensorName1, emb_tensor);
+        final long javaExecuteStart1 = SystemClock.elapsedRealtime();
+        Map<String, FloatTensor> outputsMap1 = emb_network.execute(inputsMap1);
+        final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
+        mJavaExecuteTime = javaExecuteEnd1 - javaExecuteStart1;
 
-          final long javaExecuteStart1 = SystemClock.elapsedRealtime();
-          Map<String, FloatTensor> outputsMap1 = emb_network.execute(inputsMap1);
-          final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
-          mJavaExecuteTime = javaExecuteEnd1 - javaExecuteStart1;
+        Log.i("robikart emb net time", "" + mJavaExecuteTime);
 
-          Log.i("robikart emb net time", "" + mJavaExecuteTime);
-
-          for (Map.Entry<String, FloatTensor> output : outputsMap1.entrySet()) {
-            for (String mOutputLayer : outputTensorName1) {
-              if (output.getKey().equals(mOutputLayer)) {
-                FloatTensor tensor1 = output.getValue();
-                if (mOutputLayer.equals("bn_scale7.batch_norm_blob7"))
-                  features = tensor1;
-              }
+        for (Map.Entry<String, FloatTensor> output : outputsMap1.entrySet()) {
+          for (String mOutputLayer : outputTensorName1) {
+            if (output.getKey().equals(mOutputLayer)) {
+              FloatTensor tensor1 = output.getValue();
+              if (mOutputLayer.equals("bn_scale7.batch_norm_blob7"))
+                features = tensor1;
             }
           }
+        }
 
-          float[] feats = features != null ? new float[features.getSize()] : new float[0];
+        float[] feats = features != null ? new float[features.getSize()] : new float[0];
 
-          Objects.requireNonNull(features).read(feats, 0, feats.length);
+        Objects.requireNonNull(features).read(feats, 0, feats.length);
 
-          features_list.add(feats);
-          float width = (x2) - (x1);
-          float height = (y2) - (y1);
+        features_list.add(feats);
+        float width = (x2) - (x1);
+        float height = (y2) - (y1);
 
-          bboxes.add(new float[]{detection.left, detection.top, width, height});
-          out_scores.add(scores[i / 4]);
+        bboxes.add(new float[]{detection.left, detection.top, width, height});
+        out_scores.add(results.get(i).score);
 //          recognitions.add(
 //                  new Recognition(
 //                          "",
@@ -286,7 +286,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 //                          "",
 //                          1.0f,
 //                          detection));
-        }
       }
     }
 
