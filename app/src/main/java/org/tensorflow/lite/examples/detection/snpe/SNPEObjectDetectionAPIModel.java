@@ -220,6 +220,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     final ArrayList<Result> results = PrePostProcessor.outputsToNMSPredictions(outputs, imgScaleX, imgScaleY, ivScaleX, ivScaleY, 0, 0);
     Log.d("snpe_engine", "2222222: " + results.size());
+    Log.d("snpe_engine", ">>>>>: " + ROI_height1 +", "+ ROI_buffer1 +", " + ROI_height2 +", " + ROI_buffer2);
     final ArrayList<Recognition> recognitions = new ArrayList<>(results.size());
 
     FloatTensor features = null;
@@ -233,7 +234,8 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       float y1 = results.get(i).rect.top;
       float x2 = results.get(i).rect.right;
       float y2 = results.get(i).rect.bottom;
-      Log.d("snpe_engine", "x1, y1, x2, y2" + x1 + y1 + x2 + y2);
+      Log.d("snpe_engine", "x1, y1, x2, y2: " + x1 + y1 + x2 + y2);
+
       if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
         RectF detection = new RectF(x1, y1, x2, y2);
 
@@ -289,6 +291,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       }
     }
 
+    Log.d("snpe_enigne", "444444: " + bboxes.size());
     final long javaExecuteStart1 = SystemClock.elapsedRealtime();
     Pair<Tracker, List<Detection>> track_dets = deepsort_rbc.run_deep_sort(features_list, out_scores, bboxes);
     final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
@@ -305,7 +308,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     my_dict = deepsort_rbc.update_dict(track_dets.first.mtracks_, my_dict, ts, ROI_height1 , ROI_height2);
     reset_deepsort = false;
     //box occluding the entire screen for scanning
-    System.out.println("Number in dict " + my_dict.size());
+    Log.d("snpe_engine", "Number in dict " + my_dict.size());
     for (Map.Entry<Integer, StateInfo> item : my_dict.entrySet()) {
       if (item.getValue().getUpdate_frame() == ts) {
         float[] bbox = item.getValue().getMbbox();
@@ -369,6 +372,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 //        );
 //      }
 //    }
+    Log.d("snpe_engine", "55555555: " + recognitions.size() + ", " + box_count);
     return new Pair<List<Recognition>, Integer>(recognitions, box_count);
   }
 

@@ -34,8 +34,8 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private static final Logger LOGGER = new Logger();
 
   private static final int TF_OD_API_INPUT_SIZE = 320;
-  private static final float ROI1 = 0.35f;
-  private static final float ROI2 = 0.7f;
+  private static final float ROI1 = 0.0f;
+  private static final float ROI2 = 1.0f;
   private static final DetectorMode MODE = DetectorMode.TF_OD_API;
   private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.35f;
   private static final boolean MAINTAIN_ASPECT = false;

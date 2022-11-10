@@ -119,20 +119,22 @@ public class PrePostProcessor {
 
     static ArrayList<Result> outputsToNMSPredictions(float[] outputs, float imgScaleX, float imgScaleY, float ivScaleX, float ivScaleY, float startX, float startY) {
         ArrayList<Result> results = new ArrayList<>();
-        for (int c=4;c<outputs.length;c+=85) {
-            if (outputs[c]>=mThreshold) {
-                float cx = outputs[c-4];
-                float cy = outputs[c-3];
-                float w = outputs[c-2];
-                float h = outputs[c-1];
+//        Log.d("snpe_engine", "input size: " + outputs.length + ", " + imgScaleX + ", " + imgScaleY);
+        for (int c=0;c<outputs.length;c+=6) {
+
+            if (outputs[c+4]>=mThreshold) {
+                float cx = outputs[c];
+                float cy = outputs[c+1];
+                float w = outputs[c+2];
+                float h = outputs[c+3];
                 int gridX, gridY;
                 int anchor_gridX, anchor_gridY;
                 int[] anchorX = {10,16,33,30,62,59,116,156,373};
                 int[] anchorY = {13,30,23,61,45,119,90,198,326};
-                int[] num_filters = {19200,4800,1200};
-                int[] filter_size = {80,40,20};
+                int[] num_filters = {4800,1200,300};
+                int[] filter_size = {40,20,10};
                 int stride;
-                int ci = (int)(c/85);
+                int ci = (int)(c/6);
                 if (ci<num_filters[0]) {
                     gridX = (ci%(filter_size[0]*filter_size[0]))%filter_size[0];
                     gridY = (int)((ci%(filter_size[0]*filter_size[0]))/filter_size[0]);
@@ -146,22 +148,23 @@ public class PrePostProcessor {
                     anchor_gridY = anchorY[(int)((ci-num_filters[0])/(filter_size[1]*filter_size[1]))+3];
                     stride = 16;
                 } else {
-                    gridX = ((ci-num_filters[1])%(filter_size[2]*filter_size[2]))%filter_size[2];
-                    gridY = (int)(((ci-num_filters[1])%(filter_size[2]*filter_size[2]))/filter_size[2]);
-                    anchor_gridX = anchorX[(int)((ci-num_filters[1])/(filter_size[2]*filter_size[2]))+6];
-                    anchor_gridY = anchorY[(int)((ci-num_filters[1])/(filter_size[2]*filter_size[2]))+6];
+                    gridX = ((ci-num_filters[1]-num_filters[0])%(filter_size[2]*filter_size[2]))%filter_size[2];
+                    gridY = (int)(((ci-num_filters[1]-num_filters[0])%(filter_size[2]*filter_size[2]))/filter_size[2]);
+                    anchor_gridX = anchorX[(int)((ci-num_filters[1]-num_filters[0])/(filter_size[2]*filter_size[2]))+6];
+                    anchor_gridY = anchorY[(int)((ci-num_filters[1]-num_filters[0])/(filter_size[2]*filter_size[2]))+6];
                     stride = 32;
                 }
                 cx = (float)(cx*2-0.5+gridX)*stride;
                 cy = (float)(cy*2-0.5+gridY)*stride;
                 w = w*2*w*2*anchor_gridX;
                 h = h*2*h*2*anchor_gridY;
-                float left = cx-w/2;
-                float top = cy-h/2;
-                float right = cx+w/2;
-                float bottom = cy+h/2;
-                float obj_conf = outputs[c];
-
+                float left = Math.max(Math.min(imgScaleX * (cx-w/2), 319), 0);
+                float top = Math.max(Math.min(imgScaleY * (cy-h/2), 319), 0);
+                float right = Math.max(Math.min(imgScaleX * (cx+w/2), 319), 0);
+                float bottom = Math.max(Math.min(imgScaleY * (cy+h/2), 319), 0);
+                float obj_conf = outputs[c+4];
+                Log.d("snpe_engine", "3333333: " + left + ", " + top +
+                        ", " + right + ", " + bottom);
                 Rect rect = new Rect((int)(startX+left), (int)(startY+top), (int)(startX+right), (int)(startY+bottom));
                 Result result = new Result(0, obj_conf, rect);
                 results.add(result);
