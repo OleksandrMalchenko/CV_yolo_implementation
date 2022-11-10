@@ -147,19 +147,19 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
   @Override
   public Pair<List<Recognition>, Integer> recognizeImage(final Bitmap bitmap, long ts) {
-    Bitmap resizedBitmap = getResizedBitmap(bitmap, 320, 320);
-    resizedBitmap.getPixels(intValues, 0, resizedBitmap.getWidth(), 0, 0, resizedBitmap.getWidth(), resizedBitmap.getHeight());
+//    Bitmap resizedBitmap = getResizedBitmap(bitmap, 320, 320);
+    bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
     float[] input = new float[intValues.length * 3];
-    Log.d("snpe_engine", "input size" + inputSize);
+
     for (int i = 0; i < inputSize; ++i) {
         for (int j = 0; j < inputSize; ++j) {
-            final int idx = j * resizedBitmap.getWidth() + i;
+            final int idx = i * bitmap.getWidth() + j;
             final int batchIdx = idx * 3;
 
             final float[] rgb = extractColorChannels(intValues[idx]);
-            input[batchIdx] = rgb[0];
-            input[batchIdx + 1] = rgb[1];
-            input[batchIdx + 2] = rgb[2];
+            input[idx] = rgb[0];
+            input[inputSize * inputSize + idx] = rgb[1];
+            input[2 * inputSize * inputSize + idx] = rgb[2];
         }
     }
     String inputTensorName = (String) network.getInputTensorsNames().toArray()[0];
