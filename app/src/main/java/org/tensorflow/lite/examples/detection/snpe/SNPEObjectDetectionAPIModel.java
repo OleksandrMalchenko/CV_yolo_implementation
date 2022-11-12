@@ -102,8 +102,8 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     d.builder = new SNPE.NeuralNetworkBuilder(application)
             .setCpuFallbackEnabled(true)
-            .setRuntimeOrder(NeuralNetwork.Runtime.DSP,NeuralNetwork.Runtime.GPU, NeuralNetwork.Runtime.CPU)
-            .setModel(modelInputStream,streamLength)
+            .setRuntimeOrder(NeuralNetwork.Runtime.DSP, NeuralNetwork.Runtime.GPU, NeuralNetwork.Runtime.CPU)
+            .setModel(modelInputStream, streamLength)
             .setUseUserSuppliedBuffers(false);
 
     d.network = d.builder.build();
@@ -115,7 +115,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     d.builder1 = new SNPE.NeuralNetworkBuilder(application)
             .setCpuFallbackEnabled(true)
-            .setRuntimeOrder(NeuralNetwork.Runtime.GPU, NeuralNetwork.Runtime.CPU)
+            .setRuntimeOrder(NeuralNetwork.Runtime.DSP, NeuralNetwork.Runtime.GPU, NeuralNetwork.Runtime.CPU)
             .setModel(modelInputStream1, streamLength1);
 
     d.emb_network = d.builder1.build();
@@ -123,11 +123,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     d.emb_tensor = d.emb_network.createFloatTensor(1, 128, 128, 3);
 
     d.is = assetManager.open("gaus_mask.txt");
-
-    boolean ret_init = d.yolov5ncnn.Init(application.getAssets());
-    if (!ret_init) {
-      Log.e("MainActivity", "yolov5ncnn Init failed");
-    }
 
     return d;
   }
@@ -153,13 +148,13 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     for (int i = 0; i < inputSize; ++i) {
         for (int j = 0; j < inputSize; ++j) {
-            final int idx = i * bitmap.getWidth() + j;
-            final int batchIdx = idx * 3;
+          final int idx = j * bitmap.getWidth() + i;
+          final int batchIdx = idx * 3;
 
-            final float[] rgb = extractColorChannels(intValues[idx]);
-            input[idx] = rgb[0];
-            input[inputSize * inputSize + idx] = rgb[1];
-            input[2 * inputSize * inputSize + idx] = rgb[2];
+          final float[] rgb = extractColorChannels(intValues[idx]);
+          input[batchIdx] = rgb[0];
+          input[batchIdx + 1] = rgb[1];
+          input[batchIdx + 2] = rgb[2];
         }
     }
     String inputTensorName = (String) network.getInputTensorsNames().toArray()[0];

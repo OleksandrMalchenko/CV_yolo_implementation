@@ -27,13 +27,6 @@ android {
     aaptOptions {
         noCompress "tflite"
     }
-    externalNativeBuild {
-        cmake {
-            version "3.10.2"
-            path file('src/main/jni/CMakeLists.txt')
-        }
-    }
-    ndkVersion '22.0.7026061'
     compileOptions {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
