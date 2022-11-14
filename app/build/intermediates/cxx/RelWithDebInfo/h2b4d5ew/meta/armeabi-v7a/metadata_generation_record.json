@@ -1,0 +1,1290 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1637493098
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/android_gradle_build.json due to:",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1518641833
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1795886893
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1795697973
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 507374298
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a\u0027",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -529928750
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_ANDROID_NDK\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/RelWithDebInfo/h2b4d5ew/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/RelWithDebInfo/h2b4d5ew/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 902301246
+  },
+  {
+    "level_": 0,
+    "message_": "\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1735270248
+  },
+  {
+    "level_": 0,
+    "message_": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1382581106
+  },
+  {
+    "level_": 0,
+    "message_": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 667196497
+  },
+  {
+    "level_": 0,
+    "message_": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -223587022
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\n  \"buildDirectory\": \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1691059464
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1784656307
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/RelWithDebInfo/h2b4d5ew/obj/armeabi-v7a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/RelWithDebInfo/h2b4d5ew/obj/armeabi-v7a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelWithDebInfo\"\n  ]\n}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 305764855
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The C compiler identification is Clang 11.0.5\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2144107379
+  },
+  {
+    "level_": 0,
+    "message_": "The C compiler identification is Clang 11.0.5",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -447202965
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The CXX compiler identification is Clang 11.0.5\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1276176243
+  },
+  {
+    "level_": 0,
+    "message_": "The CXX compiler identification is Clang 11.0.5",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 307126123
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1703926826
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -81814194
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1610315569
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -48366336
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -721220280
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2043260405
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1507492861
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -638555674
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1924796250
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info - done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -934443358
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 719740326
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1288952558
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1521633072
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1702520690
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 685853442
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1169305761
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features - done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -334653097
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2016093322
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 750737646
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1220739722
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 234740064
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1506567592
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1142872949
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -997570429
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 135920685
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 288713946
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info - done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -775837150
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 56048422
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1604092306
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 967552153
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -482670239
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 463053922
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2132974888
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -667893281
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features - done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1715010089
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -959065341
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 328936899
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1731031832
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_C: -fopenmp\u003dlibomp  \",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 747433833
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP_C: -fopenmp\u003dlibomp  ",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -769202079
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1161840531
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_CXX: -fopenmp\u003dlibomp  \",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -561245911
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP_CXX: -fopenmp\u003dlibomp  ",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1748818911
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP: TRUE   \",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1291190717
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP: TRUE   ",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1014002629
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1121784498
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread.h",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -482332986
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -905552016
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h - found\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1541012663
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread.h - found",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1904232383
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 720527191
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread_create",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 59791647
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 610635610
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create - found\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2100601774
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread_create - found",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 617642394
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found Threads: TRUE  \",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1485118617
+  },
+  {
+    "level_": 0,
+    "message_": "Found Threads: TRUE  ",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1028869743
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -132175226
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -359401015
+  },
+  {
+    "level_": 0,
+    "message_": "Configuring done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1360200337
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 134623558
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"compute\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1177919269
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -249332328
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1772867939
+  },
+  {
+    "level_": 0,
+    "message_": "Generating done",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1108397334
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1172178891
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"cmakeInputs\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1106684228
+  },
+  {
+    "level_": 0,
+    "message_": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindThreads.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\"ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnnConfig.cmake\",\"ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnn.cmake\",\"ncnn-20210322-android/armeabi-v7a/lib/cmake/ncnn/ncnn-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c\",\"../../../.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp\"]}],\"cmakeRootDirectory\":\"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"type\":\"reply\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1554577229
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"codemodel\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1407837806
+  },
+  {
+    "level_": 0,
+    "message_": "{\"configurations\":[{\"name\":\"RelWithDebInfo\",\"projects\":[{\"buildDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a\",\"name\":\"yolov5ncnn\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"targets\":[{\"artifacts\":[\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/RelWithDebInfo/h2b4d5ew/obj/armeabi-v7a/libyolov5ncnn.so\"],\"buildDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -O2 -g -DNDEBUG -fPIC   -fno-rtti -fno-exceptions\",\"defines\":[\"yolov5ncnn_EXPORTS\"],\"includePath\":[{\"isSystem\":true,\"path\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/include/ncnn\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"yolov5ncnn_jni.cpp\"]}],\"fullName\":\"libyolov5ncnn.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/armeabi-v7a/lib/libncnn.a -llog -ljnigraphics -fopenmp -static-openmp -landroid -llog -ljnigraphics -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"yolov5ncnn\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"sysroot\":\"/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1466713942
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/compile_commands.json.bin normally",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 135007319
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 195028047
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/RelWithDebInfo/h2b4d5ew/armeabi-v7a/metadata_generation_command.txt",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1054962123
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2133101131
+  }
+]

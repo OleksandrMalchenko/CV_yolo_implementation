@@ -4,12 +4,12 @@
     "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dyolov5ncnn_EXPORTS -isystem /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -fno-rtti -fno-exceptions"
   },
   "buildFiles": [
-    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn.cmake",
-    "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake",
-    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt",
     "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake",
+    "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake",
     "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake",
-    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt"
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn.cmake",
+    "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake"
   ],
   "cleanCommands": [
     "/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a\" clean"
@@ -31,9 +31,7 @@
       ],
       "headers": [],
       "output": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov5ncnn.so",
-      "runtimeFiles": [
-        "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/libncnn.a"
-      ]
+      "runtimeFiles": []
     }
   },
   "toolchains": {

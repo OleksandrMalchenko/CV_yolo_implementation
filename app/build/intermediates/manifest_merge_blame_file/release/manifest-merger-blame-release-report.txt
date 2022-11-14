@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
+8        android:minSdkVersion="21"
+8-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
+9        android:targetSdkVersion="29" />
+9-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:7:5-65
+11-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:8:5-81
+12-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:9:5-80
+13-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:9:22-77
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:11:5-60
+15-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:11:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:12:5-70
+16-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:12:19-67
+17
+18    <application
+18-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:14:5-34:19
+19        android:allowBackup="false"
+19-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:15:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/243f17b7e8ad2b0d6f7579a23a86b1d4/core-1.0.0/AndroidManifest.xml:22:18-86
+21        android:hardwareAccelerated="true"
+21-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:22:9-43
+22        android:icon="@drawable/ic_launcher"
+22-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:16:9-45
+23        android:label="@string/app_name"
+23-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:17:9-41
+24        android:roundIcon="@drawable/ic_launcher"
+24-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:18:9-50
+25        android:supportsRtl="true"
+25-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:19:9-35
+26        android:theme="@style/AppTheme" >
+26-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:20:9-40
+27        <activity
+27-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:24:9-32:20
+28            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+28-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:25:13-45
+29            android:label="@string/activity_name_detection"
+29-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:26:13-60
+30            android:screenOrientation="portrait" >
+30-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:27:13-49
+31            <intent-filter>
+31-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:28:13-31:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:29:17-69
+32-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:29:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:30:17-77
+34-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:30:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

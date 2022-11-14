@@ -1,0 +1,518 @@
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\n  \"buildDirectory\": \"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/Debug/655h2l1b/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/Debug/655h2l1b/obj/arm64-v8a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/Debug/655h2l1b/obj/arm64-v8a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\"\n  ]\n}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The C compiler identification is Clang 11.0.5\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "The C compiler identification is Clang 11.0.5"
+
+CMAKE SERVER: message: "The C compiler identification is Clang 11.0.5"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The CXX compiler identification is Clang 11.0.5\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "The CXX compiler identification is Clang 11.0.5"
+
+CMAKE SERVER: message: "The CXX compiler identification is Clang 11.0.5"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+CMAKE SERVER: message: "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works"
+
+CMAKE SERVER: message: "Check for working C compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info - done"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compile features"
+
+CMAKE SERVER: message: "Detecting C compile features"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compile features - done"
+
+CMAKE SERVER: message: "Detecting C compile features - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+
+CMAKE SERVER: message: "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works"
+
+CMAKE SERVER: message: "Check for working CXX compiler: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info - done"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compile features"
+
+CMAKE SERVER: message: "Detecting CXX compile features"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compile features - done"
+
+CMAKE SERVER: message: "Detecting CXX compile features - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_C: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_CXX: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP: TRUE   \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP: TRUE   "
+
+CMAKE SERVER: message: "Found OpenMP: TRUE   "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread.h"
+
+CMAKE SERVER: message: "Looking for pthread.h"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h - found\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread.h - found"
+
+CMAKE SERVER: message: "Looking for pthread.h - found"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread_create"
+
+CMAKE SERVER: message: "Looking for pthread_create"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create - found\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread_create - found"
+
+CMAKE SERVER: message: "Looking for pthread_create - found"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found Threads: TRUE  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found Threads: TRUE  "
+
+CMAKE SERVER: message: "Found Threads: TRUE  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Configuring done"
+
+CMAKE SERVER: message: "Configuring done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"compute\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Generating done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"cmakeInputs\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindThreads.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake\",\"../../../../../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\",\"ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake\",\"ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn.cmake\",\"ncnn-20210322-android/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c\",\"../../../.cxx/Debug/655h2l1b/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp\"]}],\"cmakeRootDirectory\":\"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"codemodel\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/Debug/655h2l1b/arm64-v8a\",\"name\":\"yolov5ncnn\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"targets\":[{\"artifacts\":[\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/Debug/655h2l1b/obj/arm64-v8a/libyolov5ncnn.so\"],\"buildDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/Debug/655h2l1b/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions\",\"defines\":[\"yolov5ncnn_EXPORTS\"],\"includePath\":[{\"isSystem\":true,\"path\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/include/ncnn\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"yolov5ncnn_jni.cpp\"]}],\"fullName\":\"libyolov5ncnn.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/ncnn-20210322-android/arm64-v8a/lib/libncnn.a -llog -ljnigraphics -fopenmp -static-openmp -landroid -llog -ljnigraphics -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"yolov5ncnn\",\"sourceDirectory\":\"/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni\",\"sysroot\":\"/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Exiting generation of /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/Debug/655h2l1b/arm64-v8a/compile_commands.json.bin normally"
+

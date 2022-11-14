@@ -1,4 +1,4 @@
-Executable : /Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+                Executable : /Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
 -H/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni
 -DCMAKE_FIND_ROOT_PATH=/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab

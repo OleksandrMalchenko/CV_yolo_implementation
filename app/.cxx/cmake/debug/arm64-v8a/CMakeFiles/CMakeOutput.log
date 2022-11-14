@@ -29,17 +29,17 @@ The CXX compiler identification is Clang, found in "/Users/oleksandrdroid/Robosy
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ecfb3"
-[1/2] Building C object CMakeFiles/cmTC_ecfb3.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_ecfb3
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_16926"
+[1/2] Building C object CMakeFiles/cmTC_16926.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_16926
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_33ecc"
-[1/2] Building C object CMakeFiles/cmTC_33ecc.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_33ecc
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4d307"
+[1/2] Building C object CMakeFiles/cmTC_4d307.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_4d307
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -48,16 +48,16 @@ Found candidate GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/
 Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_33ecc /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_33ecc.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_4d307 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_4d307.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_33ecc"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_33ecc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_33ecc]
+  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4d307"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_4d307.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_4d307]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -68,7 +68,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_33ecc /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_33ecc.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_4d307 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_4d307.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -87,7 +87,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_33ecc] ==> ignore
+    arg [cmTC_4d307] ==> ignore
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64]
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_33ecc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4d307.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -131,9 +131,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_78f2d"
-[1/2] Building C object CMakeFiles/cmTC_78f2d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_78f2d
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1f321"
+[1/2] Building C object CMakeFiles/cmTC_1f321.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_1f321
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -145,9 +145,9 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8f5cb"
-[1/2] Building C object CMakeFiles/cmTC_8f5cb.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_8f5cb
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a0cbd"
+[1/2] Building C object CMakeFiles/cmTC_a0cbd.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_a0cbd
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -159,9 +159,9 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_496ec"
-[1/2] Building C object CMakeFiles/cmTC_496ec.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_496ec
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b2f46"
+[1/2] Building C object CMakeFiles/cmTC_b2f46.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_b2f46
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -171,17 +171,17 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_60ee2"
-[1/2] Building CXX object CMakeFiles/cmTC_60ee2.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_60ee2
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cd4c4"
+[1/2] Building CXX object CMakeFiles/cmTC_cd4c4.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_cd4c4
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2dbeb"
-[1/2] Building CXX object CMakeFiles/cmTC_2dbeb.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_2dbeb
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_14967"
+[1/2] Building CXX object CMakeFiles/cmTC_14967.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_14967
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -190,16 +190,16 @@ Found candidate GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/
 Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2dbeb /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_2dbeb.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_14967 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_14967.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2dbeb"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_2dbeb.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_2dbeb]
+  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_14967"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_14967.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_14967]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -210,7 +210,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2dbeb /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_2dbeb.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_14967 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_14967.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -229,7 +229,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2dbeb] ==> ignore
+    arg [cmTC_14967] ==> ignore
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64]
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -249,7 +249,7 @@ Parsed CXX implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_2dbeb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_14967.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -277,9 +277,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_34bf9"
-[1/2] Building CXX object CMakeFiles/cmTC_34bf9.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_34bf9
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1d195"
+[1/2] Building CXX object CMakeFiles/cmTC_1d195.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_1d195
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -344,9 +344,9 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b4a2b"
-[1/2] Building CXX object CMakeFiles/cmTC_b4a2b.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_b4a2b
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a20a9"
+[1/2] Building CXX object CMakeFiles/cmTC_a20a9.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_a20a9
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -411,9 +411,9 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_09071"
-[1/2] Building CXX object CMakeFiles/cmTC_09071.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_09071
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a22d3"
+[1/2] Building CXX object CMakeFiles/cmTC_a22d3.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_a22d3
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -478,9 +478,9 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c7587"
-[1/2] Building CXX object CMakeFiles/cmTC_c7587.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_c7587
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8a944"
+[1/2] Building CXX object CMakeFiles/cmTC_8a944.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_8a944
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -543,8 +543,8 @@ Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.498840
 Detecting C OpenMP compiler ABI info compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_034f9"
-[1/2] Building C object CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_15de4"
+[1/2] Building C object CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -554,7 +554,7 @@ Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.70
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
  (in-process)
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o -x c /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o -x c /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-apple-darwin21.1.0
 ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
 #include "..." search starts here:
@@ -564,7 +564,7 @@ ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22
  /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
  /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 End of search list.
-[2/2] Linking C executable cmTC_034f9
+[2/2] Linking C executable cmTC_15de4
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -573,15 +573,15 @@ Found candidate GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/
 Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_034f9 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_15de4 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_034f9"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o]
+  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_15de4"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -593,7 +593,7 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
   ignore line: [ (in-process)]
-  ignore line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o -x c /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o -x c /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-apple-darwin21.1.0]
   ignore line: [ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
   ignore line: [#include "..." search starts here:]
@@ -603,7 +603,7 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [ /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
   ignore line: [ /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking C executable cmTC_034f9]
+  ignore line: [[2/2] Linking C executable cmTC_15de4]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -614,7 +614,7 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_034f9 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_15de4 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o -latomic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -633,7 +633,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_034f9] ==> ignore
+    arg [cmTC_15de4] ==> ignore
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64]
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -653,7 +653,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_034f9.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_15de4.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-latomic] ==> lib [atomic]
     arg [-lm] ==> lib [m]
     arg [-lomp] ==> lib [omp]
@@ -678,8 +678,8 @@ Parsed C OpenMP implicit link information from above output:
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7b270"
-[1/2] Building CXX object CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_26ce4"
+[1/2] Building CXX object CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -689,7 +689,7 @@ Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.70
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
  (in-process)
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o -x c++ /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o -x c++ /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-apple-darwin21.1.0
 ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
 #include "..." search starts here:
@@ -700,7 +700,7 @@ ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22
  /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
  /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 End of search list.
-[2/2] Linking CXX executable cmTC_7b270
+[2/2] Linking CXX executable cmTC_26ce4
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -709,15 +709,15 @@ Found candidate GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/
 Selected GCC installation: /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7b270 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_26ce4 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7b270"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_26ce4"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -729,7 +729,7 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
   ignore line: [ (in-process)]
-  ignore line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o -x c++ /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 305 -v -ffunction-sections -fdata-sections -resource-dir /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5 -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o -x c++ /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-apple-darwin21.1.0]
   ignore line: [ignoring nonexistent directory "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
   ignore line: [#include "..." search starts here:]
@@ -740,7 +740,7 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [ /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
   ignore line: [ /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking CXX executable cmTC_7b270]
+  ignore line: [[2/2] Linking CXX executable cmTC_26ce4]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -751,7 +751,7 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7b270 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_26ce4 /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm -lomp -lgcc -ldl -lc -lgcc -ldl /Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -770,7 +770,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7b270] ==> ignore
+    arg [cmTC_26ce4] ==> ignore
     arg [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/11.0.5/lib/linux/aarch64]
     arg [-L/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/oleksandrdroid/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -790,7 +790,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_7b270.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_26ce4.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-latomic] ==> lib [atomic]
     arg [-lm] ==> lib [m]
     arg [-Bstatic] ==> ignore
@@ -819,17 +819,17 @@ Parsed CXX OpenMP implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c0539"
-[1/2] Building C object CMakeFiles/cmTC_c0539.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_c0539
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0bf92"
+[1/2] Building C object CMakeFiles/cmTC_0bf92.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0bf92
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6bd0f"
-[1/2] Building C object CMakeFiles/cmTC_6bd0f.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_6bd0f
+Run Build Command:"/Users/oleksandrdroid/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_81fe1"
+[1/2] Building C object CMakeFiles/cmTC_81fe1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_81fe1
 
 File /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

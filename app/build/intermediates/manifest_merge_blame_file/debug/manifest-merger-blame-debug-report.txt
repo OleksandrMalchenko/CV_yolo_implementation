@@ -33,7 +33,7 @@
 19        android:allowBackup="false"
 19-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:15:9-36
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/b98e3276993f4364d9f0da5ed0bdb6c9/core-1.0.0/AndroidManifest.xml:22:18-86
+20-->[androidx.core:core:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/243f17b7e8ad2b0d6f7579a23a86b1d4/core-1.0.0/AndroidManifest.xml:22:18-86
 21        android:debuggable="true"
 22        android:hardwareAccelerated="true"
 22-->/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:22:9-43
