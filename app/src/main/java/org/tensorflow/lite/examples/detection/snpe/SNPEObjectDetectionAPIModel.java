@@ -6,7 +6,6 @@ import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.RectF;
-import android.media.Image;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.Pair;
@@ -16,22 +15,15 @@ import com.qualcomm.qti.snpe.FloatTensor;
 import com.qualcomm.qti.snpe.NeuralNetwork;
 import com.qualcomm.qti.snpe.SNPE;
 
-import org.tensorflow.lite.examples.detection.YoloV5Ncnn;
 import org.tensorflow.lite.examples.detection.deepsort.Deepsort_RBC;
 import org.tensorflow.lite.examples.detection.deepsort.Detection;
 import org.tensorflow.lite.examples.detection.deepsort.StateInfo;
 import org.tensorflow.lite.examples.detection.deepsort.Tracker;
-import org.tensorflow.lite.examples.detection.env.ImageUtils;
 
-import java.io.BufferedReader;
 import java.io.DataInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -73,7 +65,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
   Application application;
 
   private static Deepsort_RBC deepsort_rbc = new Deepsort_RBC();
-  private static YoloV5Ncnn yolov5ncnn = new YoloV5Ncnn();
 
   private static Map<Integer, StateInfo> my_dict = new HashMap<>();
   private static Map<Integer, Integer> disjoint = new HashMap<>();
