@@ -2,6 +2,7 @@
 package org.tensorflow.lite.examples.detection.snpe;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -20,9 +21,11 @@ import org.tensorflow.lite.examples.detection.deepsort.Detection;
 import org.tensorflow.lite.examples.detection.deepsort.StateInfo;
 import org.tensorflow.lite.examples.detection.deepsort.Tracker;
 
+import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -203,6 +206,8 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 //    float ivScaleY = (float)mResultView.getHeight() / bitmap.getHeight();
     float ivScaleX = 0.0f;
     float ivScaleY = 0.0f;
+
+    outputs = ReadFromfile("filename1824.txt", this.application.getApplicationContext());
 
     final ArrayList<Result> results = PrePostProcessor.outputsToNMSPredictions(outputs, imgScaleX, imgScaleY, ivScaleX, ivScaleY, 0, 0);
     Log.d("snpe_engine", "2222222: " + results.size());
@@ -426,5 +431,38 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
   @Override
   public void setUseNNAPI(boolean isChecked) {
+  }
+
+  public float[] ReadFromfile(String fileName, Context context) {
+    float[] preds = new float[30240];
+    InputStream fIn = null;
+    InputStreamReader isr = null;
+    BufferedReader input = null;
+    try {
+      fIn = context.getResources().getAssets()
+              .open(fileName, Context.MODE_WORLD_READABLE);
+      isr = new InputStreamReader(fIn);
+      input = new BufferedReader(isr);
+      String line = "";
+      int idx = 0;
+      while ((line = input.readLine()) != null) {
+        preds[idx] = Float.parseFloat(line);
+        idx++;
+      }
+    } catch (Exception e) {
+      e.getMessage();
+    } finally {
+      try {
+        if (isr != null)
+          isr.close();
+        if (fIn != null)
+          fIn.close();
+        if (input != null)
+          input.close();
+      } catch (Exception e2) {
+        e2.getMessage();
+      }
+    }
+    return preds;
   }
 }
