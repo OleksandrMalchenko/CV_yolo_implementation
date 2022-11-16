@@ -52,6 +52,8 @@ public class PrePostProcessor {
      - limit: the maximum number of boxes that will be selected
      - threshold: used to decide whether boxes overlap too much
      */
+
+    //not from Yolo repository
     static ArrayList<Result> nonMaxSuppression(ArrayList<Result> boxes, int limit, float threshold) {
 
         // Do an argsort on the confidence scores, from high to low.
@@ -170,7 +172,6 @@ public class PrePostProcessor {
                 results.add(result);
             }
         }
-
         return nonMaxSuppression(results, mNmsLimit, mThreshold);
     }
 }
