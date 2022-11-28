@@ -1,7 +1,11 @@
 package org.tensorflow.lite.examples.detection;
 
+import android.Manifest;
+import android.content.Context;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
@@ -9,6 +13,8 @@ import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.media.ImageReader.OnImageAvailableListener;
 import android.os.SystemClock;
 import android.util.DisplayMetrics;
@@ -16,7 +22,11 @@ import android.util.Pair;
 import android.util.Size;
 import android.util.TypedValue;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -40,7 +50,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.35f;
   private static final boolean MAINTAIN_ASPECT = false;
   private static final Size DESIRED_PREVIEW_SIZE = new Size( 1440,1080);
-  private static final boolean SAVE_PREVIEW_BITMAP = false;
+  private static final boolean SAVE_PREVIEW_BITMAP = true;
   private static final float TEXT_SIZE_DIP = 10;
   OverlayView trackingOverlay;
   private Integer sensorOrientation;
@@ -51,12 +61,15 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private Bitmap rgbFrameBitmap = null;
   private Bitmap croppedBitmap = null;
   private Bitmap cropCopyBitmap = null;
+  Bitmap preview1Bitmap = null;  //bitmapForUnitTesting
+  int[] preview1ARGB;   //arrayForUnitTesting
 
   private boolean computingDetection = false;
 
   private long timestamp = 0;
 
   private Matrix frameToCropTransform;
+  private Matrix frameToCropTransformUnitTest;
   private Matrix cropToFrameTransform;
 
   private MultiBoxTracker tracker;
@@ -113,6 +126,12 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
             cropSize, cropSize,
             sensorOrientation, MAINTAIN_ASPECT);
 
+    frameToCropTransformUnitTest =
+            ImageUtils.getTransformationMatrix(
+                    cropSize, cropSize,
+                    cropSize, cropSize,
+                    sensorOrientation, MAINTAIN_ASPECT);
+
 //    cropToFrameTransform = new Matrix();
 //    frameToCropTransform.invert(cropToFrameTransform);
       cropToFrameTransform =
@@ -161,6 +180,32 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         });
 
     tracker.setFrameConfiguration(new_height, new_width, sensorOrientation);
+
+    // load image for unit testing
+    InputStream ims = null;
+    try {
+      // get input stream
+      ims = getAssets().open("preview1.png");
+      // load image as Drawable
+      preview1Bitmap = BitmapFactory.decodeStream(ims);
+
+      preview1ARGB = new int[preview1Bitmap.getWidth() * preview1Bitmap.getHeight()];
+      //preview1Bitmap.getPixels(preview1ARGB, 0, preview1Bitmap.getWidth(), 0, 0, preview1Bitmap.getWidth(), preview1Bitmap.getHeight());
+    }
+    catch(IOException ex) {
+      return;
+    }
+    finally {
+      //Always clear and close
+      try {
+        if (ims != null) {
+          ims.close();
+          ims = null;
+        }
+      } catch (IOException e) {
+        e.printStackTrace();
+      }
+    }
   }
 
   @Override
@@ -182,8 +227,12 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
     readyForNextImage();
 
+
     final Canvas canvas = new Canvas(croppedBitmap);
-    canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
+    //canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
+    ////
+    canvas.drawBitmap(preview1Bitmap, frameToCropTransformUnitTest, null);
+    ////
     // For examining the actual TF input.
     if (SAVE_PREVIEW_BITMAP) {
       ImageUtils.saveBitmap(croppedBitmap);

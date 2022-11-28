@@ -4,7 +4,7 @@ ADDED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/ap
 INJECTED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:1:1-35:12
 INJECTED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:1:1-35:12
 INJECTED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:1:1-35:12
-MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/01cf706feddfda363c802fc1c09c192d/jetified-snpe-release/AndroidManifest.xml:7:1-16:12
+MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/c31b9afcaea4dbf31096fe1b8fb1f7ad/jetified-snpe-release/AndroidManifest.xml:7:1-16:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/04a82421a23a6a5d27499549349c0013/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/9af2adbf94a8a98707a9a3ecadc87ed5/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/eecc0b7626a7c405eca002f354ebe89b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -59,8 +59,8 @@ uses-sdk
 ADDED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
 INJECTED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
 INJECTED from /Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/AndroidManifest.xml:5:5-17
-MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/01cf706feddfda363c802fc1c09c192d/jetified-snpe-release/AndroidManifest.xml:12:5-14:41
-MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/01cf706feddfda363c802fc1c09c192d/jetified-snpe-release/AndroidManifest.xml:12:5-14:41
+MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/c31b9afcaea4dbf31096fe1b8fb1f7ad/jetified-snpe-release/AndroidManifest.xml:12:5-14:41
+MERGED from [snpe-release.aar] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/c31b9afcaea4dbf31096fe1b8fb1f7ad/jetified-snpe-release/AndroidManifest.xml:12:5-14:41
 MERGED from [com.google.android.material:material:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/04a82421a23a6a5d27499549349c0013/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/04a82421a23a6a5d27499549349c0013/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/9af2adbf94a8a98707a9a3ecadc87ed5/appcompat-1.0.0/AndroidManifest.xml:20:5-44

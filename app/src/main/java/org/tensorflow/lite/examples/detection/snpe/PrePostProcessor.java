@@ -158,6 +158,9 @@ public class PrePostProcessor {
                 cy = (float)(cy*2-0.5+gridY)*stride;
                 w = w*2*w*2*anchor_gridX;
                 h = h*2*h*2*anchor_gridY;
+                Log.d("snpe_engine", "222222222: " + (cx-w/2) + ", " + (cy-h/2) +
+                        ", " + (cx+w/2) + ", " + (cy+h/2));
+
                 float left = Math.max(Math.min(imgScaleX * (cx-w/2), 319), 0);
                 float top = Math.max(Math.min(imgScaleY * (cy-h/2), 319), 0);
                 float right = Math.max(Math.min(imgScaleX * (cx+w/2), 319), 0);

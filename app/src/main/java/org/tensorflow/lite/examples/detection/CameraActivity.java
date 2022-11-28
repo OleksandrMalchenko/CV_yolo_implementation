@@ -40,6 +40,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
 
 import android.util.Log;
 import android.util.Size;
@@ -68,6 +69,8 @@ public abstract class CameraActivity extends AppCompatActivity
   private static final int PERMISSIONS_REQUEST = 1;
 
   private static final String PERMISSION_CAMERA = Manifest.permission.CAMERA;
+  private static final String PERMISSION_READ_STORAGE = Manifest.permission.READ_EXTERNAL_STORAGE;
+  private static final String PERMISSION_WRITE_STORAGE = Manifest.permission.WRITE_EXTERNAL_STORAGE;
   static protected int previewWidth = 0;
   static protected int previewHeight = 0;
   private final boolean debug = false;
@@ -92,6 +95,14 @@ public abstract class CameraActivity extends AppCompatActivity
   private SwitchCompat apiSwitchCompat;
   private TextView threadsTextView;
 
+  private boolean mIsGranted;                         ///< Granted permission flag.
+  private final static int PERMISSION_REQUEST_CODE = 0x01;             ///< Permissions request code.
+  private final String[] REQUIRED_PERMISSIONS = new String[]{ ///< Array of permissions to be granted.
+          Manifest.permission.CAMERA,
+          Manifest.permission.READ_EXTERNAL_STORAGE,
+          Manifest.permission.WRITE_EXTERNAL_STORAGE,
+  };
+
   @Override
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);
@@ -106,7 +117,8 @@ public abstract class CameraActivity extends AppCompatActivity
     if (hasPermission()) {
       setFragment();
     } else {
-      requestPermission();
+      makeRequestPermissions();
+      //requestPermission();
     }
 
     threadsTextView = findViewById(R.id.threads);
@@ -349,12 +361,27 @@ public abstract class CameraActivity extends AppCompatActivity
   @Override
   public void onRequestPermissionsResult(
       final int requestCode, final String[] permissions, final int[] grantResults) {
-    if (requestCode == PERMISSIONS_REQUEST) {
-      if (grantResults.length > 0
-          && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-        setFragment();
-      } else {
-        requestPermission();
+//    if (requestCode == PERMISSIONS_REQUEST) {
+//      if (grantResults.length > 0
+//          && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//        setFragment();
+//      } else {
+//        requestPermission();
+//      }
+//    }
+
+
+    mIsGranted = true;
+    switch (requestCode) {
+      case PERMISSION_REQUEST_CODE: {
+        // Check the result of each permission granted.
+        if (grantResults != null) {
+          for (int grantResult : grantResults) {
+            if (grantResult != PackageManager.PERMISSION_GRANTED) {
+              mIsGranted = false;
+            }
+          }
+        }
       }
     }
   }
@@ -364,6 +391,30 @@ public abstract class CameraActivity extends AppCompatActivity
       return checkSelfPermission(PERMISSION_CAMERA) == PackageManager.PERMISSION_GRANTED;
     } else {
       return true;
+    }
+  }
+
+  private static boolean hasPermissions(Context context, String[] permissions) {
+    for (String permission : permissions) {
+      if (context.checkCallingOrSelfPermission(permission) != PackageManager.PERMISSION_GRANTED) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
+  public void makeRequestPermissions() {
+    // If running on Android 6 (Marshmallow) or above, check to see if the necessary permissions
+    // have been granted.
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+      mIsGranted = hasPermissions(this, REQUIRED_PERMISSIONS);
+      if (!mIsGranted) {
+        ActivityCompat.requestPermissions(this, REQUIRED_PERMISSIONS, PERMISSION_REQUEST_CODE);
+      }
+    } else {
+      mIsGranted = true;
     }
   }
 
