@@ -138,7 +138,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
   @Override
   public Pair<List<Recognition>, Integer> recognizeImage(final Bitmap bitmap, long ts) {
-//    Bitmap resizedBitmap = getResizedBitmap(bitmap, 320, 320);
     bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
     float[] input = new float[intValues.length * 3];
 
@@ -157,9 +156,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     String[] outputTensorName = new String[1];
     outputTensorName[0] = (String) network.getOutputTensorsNames().toArray()[0];
-//    outputTensorName[1] = (String) network.getOutputTensorsNames().toArray()[1];
-//    outputTensorName[2] = (String) network.getOutputTensorsNames().toArray()[2];
-//    outputTensorName[3] = (String) network.getOutputTensorsNames().toArray()[3];
 
     tensor.write(input, 0, input.length);
 
@@ -184,129 +180,22 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
             case "output":
               fboxes = tensor;
               break;
-            case "Postprocessor/BatchMultiClassNonMaxSuppression_scores":
-              fscores = tensor;
-              break;
-            case "Postprocessor/BatchMultiClassNonMaxSuppression_classes":
-              fclasses = tensor;
-              break;
-//            case "onnx::Reshape_407":
-//              fboxes = tensor;
-//              break;
-//            case "Postprocessor/BatchMultiClassNonMaxSuppression_scores":
-//              fscores = tensor;
-//              break;
-//            case "Postprocessor/BatchMultiClassNonMaxSuppression_classes":
-//              fclasses = tensor;
-//              break;
           }
         }
       }
     }
-////
-//    float[] boxes = new float[Objects.requireNonNull(fboxes).getSize()];
-//    float[] scores = new float[Objects.requireNonNull(fscores).getSize()];
-//    float[] classes = new float[Objects.requireNonNull(fclasses).getSize()];
-////
     float[] outputs = new float[Objects.requireNonNull(fboxes).getSize()];
-    ///
-    //float[] scores = new float[Objects.requireNonNull(fscores).getSize()];
-    //float[] classes = new float[Objects.requireNonNull(fclasses).getSize()];
-////
 
     fboxes.read(outputs, 0, outputs.length);
-    ///
-//    fboxes.read(boxes, 0, boxes.length);
-//    fscores.read(scores, 0, scores.length);
-//    fclasses.read(classes, 0, classes.length);
-    ////
 
     float imgScaleX = (float)bitmap.getWidth() / PrePostProcessor.mInputWidth;
     float imgScaleY = (float)bitmap.getHeight() / PrePostProcessor.mInputHeight;
-//    float ivScaleX = (float)mResultView.getWidth() / bitmap.getWidth();
-//    float ivScaleY = (float)mResultView.getHeight() / bitmap.getHeight();
+
     float ivScaleX = 0.0f;
     float ivScaleY = 0.0f;
 
-    outputs = ReadFromfile("input.txt", this.application.getApplicationContext());
-    Log.d("snpe_engine", "1111111: " + outputs[0] + ", " + outputs[1] +
-            ", " + outputs[2] + ", " + outputs[3] + ", " + outputs[4] + ", " + outputs[5]);
-
     final ArrayList<Result> results = PrePostProcessor.outputsToNMSPredictions(outputs, imgScaleX, imgScaleY, ivScaleX, ivScaleY, 0, 0);
-    Log.d("snpe_engine", "2222222: " + results.size());
-    Log.d("snpe_engine", ">>>>>: " + ROI_height1 +", "+ ROI_buffer1 +", " + ROI_height2 +", " + ROI_buffer2);
     final ArrayList<Recognition> recognitions = new ArrayList<>(results.size());
-
-    FloatTensor features = null;
-
-    List<float[]> features_list = new ArrayList<>();
-    List<float[]> bboxes = new ArrayList<>();
-    List<Float> out_scores = new ArrayList<>();
-
-//    for(int i = 0;i<boxes.length;i = i + 4){
-//
-//      if (scores[i/4] > 0.3f && classes[i/4]==0.f) {
-//        float x1 = boxes[i+1] * inputSize;
-//        float y1 = boxes[i] * inputSize;
-//        float x2 = boxes[i+3] * inputSize;
-//        float y2 = boxes[i+2] * inputSize;
-//        Log.d("snpe_engine", ">>>>>>: " + x1+", " + y1+", " + x2+"," + y2);
-//
-//        if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
-//          RectF detection = new RectF(x1, y1, x2, y2);
-//
-//          Bitmap croppedBitmap = getCroppedBitmap(detection);
-//
-//          croppedBitmap = getResizedBitmap(croppedBitmap);
-//
-//          float[] emb_input = convertBitmapToFloat(croppedBitmap, is);
-//
-//          emb_tensor.write(emb_input, 0, emb_input.length);
-//
-//          String inputTensorName1 = (String) emb_network.getInputTensorsNames().toArray()[0];
-//          String[] outputTensorName1 = new String[1];
-//          outputTensorName1[0] = (String) emb_network.getOutputTensorsNames().toArray()[0];
-//
-//          Map<String, FloatTensor> inputsMap1 = new HashMap<>();
-//          inputsMap1.put(inputTensorName1, emb_tensor);
-//
-//          final long javaExecuteStart1 = SystemClock.elapsedRealtime();
-//          Map<String, FloatTensor> outputsMap1 = emb_network.execute(inputsMap1);
-//          final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
-//          mJavaExecuteTime = javaExecuteEnd1 - javaExecuteStart1;
-//
-//          Log.i("robikart emb net time", "" + mJavaExecuteTime);
-//
-//          for (Map.Entry<String, FloatTensor> output : outputsMap1.entrySet()) {
-//            for (String mOutputLayer : outputTensorName1) {
-//              if (output.getKey().equals(mOutputLayer)) {
-//                FloatTensor tensor1 = output.getValue();
-//                if (mOutputLayer.equals("bn_scale7.batch_norm_blob7"))
-//                  features = tensor1;
-//              }
-//            }
-//          }
-//
-//          float[] feats = features != null ? new float[features.getSize()] : new float[0];
-//
-//          Objects.requireNonNull(features).read(feats, 0, feats.length);
-//
-//          features_list.add(feats);
-//          float width = (x2) - (x1);
-//          float height = (y2) - (y1);
-//
-//          bboxes.add(new float[]{detection.left, detection.top, width, height});
-//          out_scores.add(scores[i / 4]);
-////          recognitions.add(
-////                  new Recognition(
-////                          "",
-////                          "",
-////                          "",
-////                          1.0f,
-////                          detection));
-//        }
-//      }
-//    }
 
     for(int i = 0; i < results.size(); i++) {
       float x1 = results.get(i).rect.left;
@@ -318,139 +207,16 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
         RectF detection = new RectF(x1, y1, x2, y2);
 
-        Bitmap croppedBitmap = getCroppedBitmap(detection);
-
-        croppedBitmap = getResizedBitmap(croppedBitmap, 128, 128);
-
-        float[] emb_input = convertBitmapToFloat(croppedBitmap, is);
-
-        emb_tensor.write(emb_input, 0, emb_input.length);
-
-        String inputTensorName1 = (String) emb_network.getInputTensorsNames().toArray()[0];
-        String[] outputTensorName1 = new String[1];
-        outputTensorName1[0] = (String) emb_network.getOutputTensorsNames().toArray()[0];
-
-        Map<String, FloatTensor> inputsMap1 = new HashMap<>();
-        inputsMap1.put(inputTensorName1, emb_tensor);
-
-        final long javaExecuteStart1 = SystemClock.elapsedRealtime();
-        Map<String, FloatTensor> outputsMap1 = emb_network.execute(inputsMap1);
-        final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
-        mJavaExecuteTime = javaExecuteEnd1 - javaExecuteStart1;
-
-        Log.i("robikart emb net time", "" + mJavaExecuteTime);
-
-        for (Map.Entry<String, FloatTensor> output : outputsMap1.entrySet()) {
-          for (String mOutputLayer : outputTensorName1) {
-            if (output.getKey().equals(mOutputLayer)) {
-              FloatTensor tensor1 = output.getValue();
-              if (mOutputLayer.equals("bn_scale7.batch_norm_blob7"))
-                features = tensor1;
-            }
-          }
-        }
-
-        float[] feats = features != null ? new float[features.getSize()] : new float[0];
-
-        Objects.requireNonNull(features).read(feats, 0, feats.length);
-
-        features_list.add(feats);
-        float width = (x2) - (x1);
-        float height = (y2) - (y1);
-
-        bboxes.add(new float[]{detection.left, detection.top, width, height});
-        out_scores.add(results.get(i).score);
-//          recognitions.add(
-//                  new Recognition(
-//                          "",
-//                          "",
-//                          "",
-//                          1.0f,
-//                          detection));
-      }
-    }
-
-    Log.d("snpe_enigne", "444444: " + bboxes.size());
-    final long javaExecuteStart1 = SystemClock.elapsedRealtime();
-    Pair<Tracker, List<Detection>> track_dets = deepsort_rbc.run_deep_sort(features_list, out_scores, bboxes);
-    final long javaExecuteEnd1 = SystemClock.elapsedRealtime();
-    mJavaExecuteTime = javaExecuteEnd1 - javaExecuteStart1;
-
-    Log.i("robikart deepsort time", "" + mJavaExecuteTime);
-
-    Object[] result = deepsort_rbc.remap(track_dets.first.mtracks_, my_dict, disjoint);
-    List<Integer> track_ids = (List<Integer>) result[0];
-    disjoint = (Map<Integer, Integer>) result[1];
-
-    my_dict = deepsort_rbc.delete_removedbox(my_dict, track_ids, disjoint);
-
-    my_dict = deepsort_rbc.update_dict(track_dets.first.mtracks_, my_dict, ts, ROI_height1 , ROI_height2);
-    reset_deepsort = false;
-    //box occluding the entire screen for scanning
-    Log.d("snpe_engine", "Number in dict " + my_dict.size());
-    for (Map.Entry<Integer, StateInfo> item : my_dict.entrySet()) {
-      if (item.getValue().getUpdate_frame() == ts) {
-        float[] bbox = item.getValue().getMbbox();
-        RectF tracked = new RectF(bbox[0], bbox[1], bbox[2], bbox[3]);
-//        if ((((bbox[0] + bbox[2]) / 2) > ROI_height2) && ((item.getValue().getROI() == 1)||(item.getValue().getROI() == 2)) && item.getValue().isOut_in()) {
-//        if ((((bbox[0] + bbox[2]) / 2) > ROI_height2) && (item.getValue().isEntry1()) && (item.getValue().isEntry2())) {
-          if ((((bbox[0] + bbox[2]) / 2) > ROI_height2) && (item.getValue().isEntry2())) {
-          item.getValue().setROI(3);
-          item.getValue().setRandom(false);
-          box_count++;
-          String tmp = String.format("CV ROI-2 BX N");
-          Log.i("Protocol Message", tmp);
-          Toast.makeText(application.getApplicationContext(), tmp, Toast.LENGTH_LONG).show();
-          reset_deepsort = true;
-//        } else if ((((bbox[0] + bbox[1]) / 2) < ROI_height1) && ((item.getValue().getROI() == 2)||(item.getValue().getROI() == 3)) && (item.getValue().isOut_in()==false)) {
-        } else if ((((bbox[0] + bbox[1]) / 2) < ROI_height1) && (item.getValue().isEntry1() == false)&& (item.getValue().isEntry2() == false)&& (item.getValue().isExit1())) {
-          item.getValue().setROI(1);
-          box_count--;
-          String tmp = String.format("CV ROI-2 BX E");
-          Log.i("Protocol Message", tmp);
-          Toast.makeText(application.getApplicationContext(), tmp, Toast.LENGTH_LONG).show();
-          reset_deepsort = true;
-        } else if ((((bbox[0] + bbox[2]) / 2) < ROI_height1) && (item.getValue().isEntry1()==true)&& (item.getValue().isEntry2()==false)) {
-          //if (ts - item.getValue().getFirst_ts() >= 20) {
-            String tmp = String.format("CV ROI-1 NEITHER");
-            Log.i("Protocol Message", tmp);
-            Toast.makeText(application.getApplicationContext(), tmp, Toast.LENGTH_LONG).show();
-            reset_deepsort = true;
-          //}
-        }
-        if (reset_deepsort==true){
-          deepsort_rbc = new Deepsort_RBC();
-          my_dict = new HashMap<>();
-          disjoint = new HashMap<>();
-        }
-
         recognitions.add(
                 new Recognition(
-                        "" + item.getValue().getId(),
-                        "T",
-                        inout[item.getValue().getROI()],
+                        "",
+                        "",
+                        "ROI1",
                         1.0f,
-                        tracked
-                )
-        );
+                        detection));
       }
     }
 
-//    for (Map.Entry<Integer, StateInfo> item : my_dict.entrySet()) {
-//      if (item.getValue().getUpdate_frame() == ts) {
-//        float[] bbox = item.getValue().getMbbox();
-//        RectF tracked = new RectF(bbox[0], bbox[1], bbox[2], bbox[3]);
-//        recognitions.add(
-//                new Recognition(
-//                        "" + item.getValue().getId(),
-//                        "T",
-//                        inout[item.getValue().getROI()],
-//                        1.0f,
-//                        tracked
-//                )
-//        );
-//      }
-//    }
     Log.d("snpe_engine", "55555555: " + recognitions.size() + ", " + box_count);
     return new Pair<List<Recognition>, Integer>(recognitions, box_count);
   }
