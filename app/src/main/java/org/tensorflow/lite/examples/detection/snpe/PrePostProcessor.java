@@ -32,12 +32,12 @@ public class PrePostProcessor {
     static float[] NO_STD_RGB = new float[] {1.0f, 1.0f, 1.0f};
 
     // model input image size
-    static int mInputWidth = 320;
-    static int mInputHeight = 320;
+    static int mInputWidth = 640;
+    static int mInputHeight = 640;
 
     // model output is of size 25200*(num_of_class+5)
     private static int mOutputRow = 6300; // as decided by the YOLOv5 model for input image of size 640*640
-    private static int mOutputColumn = 6; // left, top, right, bottom, score and 80 class probability
+    private static int mOutputColumn = 19; // left, top, right, bottom, score and 80 class probability
     private static float mThreshold = 0.50f; // score above which a detection is generated
     private static int mNmsLimit = 15;
 
@@ -120,7 +120,7 @@ public class PrePostProcessor {
     static ArrayList<Result> outputsToNMSPredictions(float[] outputs, float imgScaleX, float imgScaleY, float ivScaleX, float ivScaleY, float startX, float startY) {
         ArrayList<Result> results = new ArrayList<>();
 //        Log.d("snpe_engine", "input size: " + outputs.length + ", " + imgScaleX + ", " + imgScaleY);
-        for (int c=0;c<outputs.length;c+=6) {
+        for (int c=0;c<outputs.length;c+=mOutputColumn) {
 
             if (outputs[c+4]>=mThreshold) {
                 float cx = outputs[c];
@@ -131,10 +131,10 @@ public class PrePostProcessor {
                 int anchor_gridX, anchor_gridY;
                 int[] anchorX = {10,16,33,30,62,59,116,156,373};
                 int[] anchorY = {13,30,23,61,45,119,90,198,326};
-                int[] num_filters = {4800,1200,300};
-                int[] filter_size = {40,20,10};
+                int[] num_filters = {19200,4800,1200};
+                int[] filter_size = {80,40,20};
                 int stride;
-                int ci = (int)(c/6);
+                int ci = (int)(c/mOutputColumn);
                 if (ci<num_filters[0]) {
                     gridX = (ci%(filter_size[0]*filter_size[0]))%filter_size[0];
                     gridY = (int)((ci%(filter_size[0]*filter_size[0]))/filter_size[0]);
@@ -159,10 +159,10 @@ public class PrePostProcessor {
                 w = w*2*w*2*anchor_gridX;
                 h = h*2*h*2*anchor_gridY;
 
-                float left = Math.max(Math.min(imgScaleX * (cx-w/2), 319), 0);
-                float top = Math.max(Math.min(imgScaleY * (cy-h/2), 319), 0);
-                float right = Math.max(Math.min(imgScaleX * (cx+w/2), 319), 0);
-                float bottom = Math.max(Math.min(imgScaleY * (cy+h/2), 319), 0);
+                float left = Math.max(Math.min(imgScaleX * (cx-w/2), mInputWidth-1), 0);
+                float top = Math.max(Math.min(imgScaleY * (cy-h/2), mInputHeight-1), 0);
+                float right = Math.max(Math.min(imgScaleX * (cx+w/2), mInputWidth-1), 0);
+                float bottom = Math.max(Math.min(imgScaleY * (cy+h/2), mInputHeight-1), 0);
                 float obj_conf = outputs[c+4];
 
                 Rect rect = new Rect((int)(startX+left), (int)(startY+top), (int)(startX+right), (int)(startY+bottom));

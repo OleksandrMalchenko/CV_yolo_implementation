@@ -104,7 +104,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     d.network = d.builder.build();
 
-    d.tensor = d.network.createFloatTensor(1, 320, 320, 3);
+    d.tensor = d.network.createFloatTensor(1, 640, 640, 3);
 
     return d;
   }
@@ -155,7 +155,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     Log.i("robikart detect time", "" + mJavaExecuteTime);
 
-    FloatTensor fboxes = null, fscores = null, fclasses = null;
+    FloatTensor fboxes = null;
 
     for (Map.Entry<String, FloatTensor> output : outputsMap.entrySet()) {
       for (String mOutputLayer : outputTensorName) {
