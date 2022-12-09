@@ -207,11 +207,17 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
         RectF detection = new RectF(x1, y1, x2, y2);
 
+        int roi_mode = 0;
+        if (((x1 + x2) / 2) > ROI_height2) {
+          roi_mode = 3;
+        } else if ((((x1 + x2) / 2) < ROI_height1)) {
+          roi_mode = 1;
+        }
         recognitions.add(
                 new Recognition(
                         "",
                         "",
-                        "ROI1",
+                        inout[roi_mode],
                         1.0f,
                         detection));
       }
