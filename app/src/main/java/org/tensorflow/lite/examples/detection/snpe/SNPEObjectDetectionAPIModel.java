@@ -106,20 +106,6 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
 
     d.tensor = d.network.createFloatTensor(1, 320, 320, 3);
 
-    InputStream modelInputStream1 = assetManager.open("nanonets.dlc");
-    int streamLength1 = modelInputStream1.available();
-
-    d.builder1 = new SNPE.NeuralNetworkBuilder(application)
-            .setCpuFallbackEnabled(true)
-            .setRuntimeOrder(NeuralNetwork.Runtime.GPU, NeuralNetwork.Runtime.CPU)
-            .setModel(modelInputStream1, streamLength1);
-
-    d.emb_network = d.builder1.build();
-
-    d.emb_tensor = d.emb_network.createFloatTensor(1, 128, 128, 3);
-
-    d.is = assetManager.open("gaus_mask.txt");
-
     return d;
   }
 
