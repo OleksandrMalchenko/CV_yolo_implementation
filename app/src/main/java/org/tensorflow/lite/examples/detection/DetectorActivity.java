@@ -229,9 +229,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
 
     final Canvas canvas = new Canvas(croppedBitmap);
-    //canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
+    canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
     ////
-    canvas.drawBitmap(preview1Bitmap, frameToCropTransformUnitTest, null);
+    //canvas.drawBitmap(preview1Bitmap, frameToCropTransformUnitTest, null);
     ////
     // For examining the actual TF input.
     if (SAVE_PREVIEW_BITMAP) {
