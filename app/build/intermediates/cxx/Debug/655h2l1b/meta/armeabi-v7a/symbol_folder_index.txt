@@ -1,1 +1,0 @@
-/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/cxx/Debug/655h2l1b/obj/armeabi-v7a

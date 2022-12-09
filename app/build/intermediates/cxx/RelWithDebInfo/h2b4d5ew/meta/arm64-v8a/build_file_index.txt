@@ -1,1 +1,0 @@
-/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/src/main/jni/CMakeLists.txt
