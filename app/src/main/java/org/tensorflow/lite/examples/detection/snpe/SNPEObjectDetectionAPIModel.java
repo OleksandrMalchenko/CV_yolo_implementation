@@ -228,9 +228,9 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     float ivScaleX = 0.0f;
     float ivScaleY = 0.0f;
 
-    outputs = ReadFromfile("input.txt", this.application.getApplicationContext());
-    Log.d("snpe_engine", "1111111: " + outputs[0] + ", " + outputs[1] +
-            ", " + outputs[2] + ", " + outputs[3] + ", " + outputs[4] + ", " + outputs[5]);
+//    outputs = ReadFromfile("input.txt", this.application.getApplicationContext());
+//    Log.d("snpe_engine", "1111111: " + outputs[0] + ", " + outputs[1] +
+//            ", " + outputs[2] + ", " + outputs[3] + ", " + outputs[4] + ", " + outputs[5]);
 
     final ArrayList<Result> results = PrePostProcessor.outputsToNMSPredictions(outputs, imgScaleX, imgScaleY, ivScaleX, ivScaleY, 0, 0);
     Log.d("snpe_engine", "2222222: " + results.size());

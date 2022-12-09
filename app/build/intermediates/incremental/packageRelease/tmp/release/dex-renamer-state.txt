@@ -1,4 +1,4 @@
-#Fri Nov 11 16:21:06 EET 2022
+#Thu Dec 08 13:36:36 EET 2022
 base.0=/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

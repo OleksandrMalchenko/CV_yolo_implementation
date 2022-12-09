@@ -8,9 +8,6 @@ org/tensorflow/lite/examples/detection/env/Size.java
  org.tensorflow.lite.examples.detection.env.Size
 org/tensorflow/lite/examples/detection/env/BorderedText.java
  org.tensorflow.lite.examples.detection.env.BorderedText
-org/tensorflow/lite/examples/detection/YoloV5Ncnn.java
- org.tensorflow.lite.examples.detection.YoloV5Ncnn
- org.tensorflow.lite.examples.detection.YoloV5Ncnn$Obj
 org/tensorflow/lite/examples/detection/DetectorActivity.java
  org.tensorflow.lite.examples.detection.DetectorActivity
  org.tensorflow.lite.examples.detection.DetectorActivity$1
