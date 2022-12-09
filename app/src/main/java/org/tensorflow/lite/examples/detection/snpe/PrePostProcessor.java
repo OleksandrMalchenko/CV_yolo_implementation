@@ -38,7 +38,7 @@ public class PrePostProcessor {
     // model output is of size 25200*(num_of_class+5)
     private static int mOutputRow = 6300; // as decided by the YOLOv5 model for input image of size 640*640
     private static int mOutputColumn = 6; // left, top, right, bottom, score and 80 class probability
-    private static float mThreshold = 0.30f; // score above which a detection is generated
+    private static float mThreshold = 0.60f; // score above which a detection is generated
     private static int mNmsLimit = 15;
 
     static String[] mClasses;
@@ -158,16 +158,13 @@ public class PrePostProcessor {
                 cy = (float)(cy*2-0.5+gridY)*stride;
                 w = w*2*w*2*anchor_gridX;
                 h = h*2*h*2*anchor_gridY;
-                Log.d("snpe_engine", "222222222: " + (cx-w/2) + ", " + (cy-h/2) +
-                        ", " + (cx+w/2) + ", " + (cy+h/2));
 
                 float left = Math.max(Math.min(imgScaleX * (cx-w/2), 319), 0);
                 float top = Math.max(Math.min(imgScaleY * (cy-h/2), 319), 0);
                 float right = Math.max(Math.min(imgScaleX * (cx+w/2), 319), 0);
                 float bottom = Math.max(Math.min(imgScaleY * (cy+h/2), 319), 0);
                 float obj_conf = outputs[c+4];
-                Log.d("snpe_engine", "3333333: " + left + ", " + top +
-                        ", " + right + ", " + bottom);
+
                 Rect rect = new Rect((int)(startX+left), (int)(startY+top), (int)(startX+right), (int)(startY+bottom));
                 Result result = new Result(0, obj_conf, rect);
                 results.add(result);
