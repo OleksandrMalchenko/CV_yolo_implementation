@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/oleksandrdroid/Robosystems/CV_standalone_wang_811/android-2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "D:\\shared_a_projects\\yolo_standalone_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/oleksandrdroid/.gradle/caches/transforms-2/files-2.1/9af2adbf94a8a98707a9a3ecadc87ed5/appcompat-1.0.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "D:\\a_sdk\\gradle\\caches\\transforms-2\\files-2.1\\9af2adbf94a8a98707a9a3ecadc87ed5\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
