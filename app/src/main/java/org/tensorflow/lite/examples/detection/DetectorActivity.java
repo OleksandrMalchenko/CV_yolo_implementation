@@ -43,7 +43,7 @@ import org.tensorflow.lite.examples.detection.tracking.MultiBoxTracker;
 public class DetectorActivity extends CameraActivity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();
 
-  private static final int TF_OD_API_INPUT_SIZE = 320;
+  private static final int TF_OD_API_INPUT_SIZE = 640;
   private static final float ROI1 = 0.0f;
   private static final float ROI2 = 1.0f;
   private static final DetectorMode MODE = DetectorMode.TF_OD_API;
@@ -229,9 +229,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
 
     final Canvas canvas = new Canvas(croppedBitmap);
-    //canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
+    canvas.drawBitmap(rgbFrameBitmap, frameToCropTransform, null);
     ////
-    canvas.drawBitmap(preview1Bitmap, frameToCropTransformUnitTest, null);
+//    canvas.drawBitmap(preview1Bitmap, frameToCropTransformUnitTest, null);
     ////
     // For examining the actual TF input.
     if (SAVE_PREVIEW_BITMAP) {

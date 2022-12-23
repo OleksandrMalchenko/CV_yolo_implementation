@@ -166,7 +166,15 @@ public class PrePostProcessor {
                 float obj_conf = outputs[c+4];
 
                 Rect rect = new Rect((int)(startX+left), (int)(startY+top), (int)(startX+right), (int)(startY+bottom));
-                Result result = new Result(0, obj_conf, rect);
+                float max_score = -1.0f;
+                int max_id = 0;
+                for (int i = 5; i < mOutputColumn; i++) {
+                    if (outputs[i] > max_score) {
+                        max_score = outputs[i];
+                        max_id = i - 5;
+                    }
+                }
+                Result result = new Result(max_id, obj_conf, rect);
                 results.add(result);
             }
         }

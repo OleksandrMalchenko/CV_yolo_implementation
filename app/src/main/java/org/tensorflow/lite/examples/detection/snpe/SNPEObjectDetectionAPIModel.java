@@ -27,6 +27,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -63,6 +64,9 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
   private int ROI_buffer1;
   private int ROI_buffer2;
   static final String[] inout = {"", "ROI1" , "", "ROI2"};
+  static final String[] classes = {"banana", "banana1", "blackberries", "raspberry", "lemon",
+          "lemon1", "grapes", "grapes1", "tomato", "tomato1", "apple", "apple1", "chilli", "chilli1"};
+  static final String[] output_classes = {"banana", "banana1", "apple", "apple1"};
   private float ROI1;
   private float ROI2;
   Application application;
@@ -188,6 +192,11 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       float y1 = results.get(i).rect.top;
       float x2 = results.get(i).rect.right;
       float y2 = results.get(i).rect.bottom;
+      int class_id = results.get(i).classIndex;
+
+      if (!Arrays.asList(output_classes).contains(classes[class_id]))
+        continue;
+
       Log.d("snpe_engine", "x1, y1, x2, y2: " + x1 + y1 + x2 + y2);
 
       if (((( x2 + x1 ) / 2) >( ROI_height1-ROI_buffer1)) && ((( x2 + x1 ) / 2) < (ROI_height2+ROI_buffer2))) {
@@ -202,7 +211,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
         recognitions.add(
                 new Recognition(
                         "",
-                        "",
+                        classes[class_id],
                         inout[roi_mode],
                         1.0f,
                         detection));
