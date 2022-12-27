@@ -10,16 +10,13 @@ import android.graphics.RectF;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.Pair;
-import android.widget.Toast;
 
 import com.qualcomm.qti.snpe.FloatTensor;
 import com.qualcomm.qti.snpe.NeuralNetwork;
 import com.qualcomm.qti.snpe.SNPE;
 
 import org.tensorflow.lite.examples.detection.deepsort.Deepsort_RBC;
-import org.tensorflow.lite.examples.detection.deepsort.Detection;
 import org.tensorflow.lite.examples.detection.deepsort.StateInfo;
-import org.tensorflow.lite.examples.detection.deepsort.Tracker;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -95,9 +92,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     d.ROI_buffer2 = (int)(d.inputSize * 0.05);
     d.intValues = new int[d.inputSize * d.inputSize];
 
-    //InputStream modelInputStream = assetManager.open("best.dlc");
-    InputStream modelInputStream = assetManager.open("best_quant.dlc");
-    //InputStream modelInputStream = assetManager.open("best_benu.dlc");
+    InputStream modelInputStream = assetManager.open("fv.dlc");
     int streamLength = modelInputStream.available();
 
     d.builder = new SNPE.NeuralNetworkBuilder(application)
