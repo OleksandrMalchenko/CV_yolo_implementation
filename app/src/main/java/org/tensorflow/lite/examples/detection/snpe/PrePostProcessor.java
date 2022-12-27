@@ -168,10 +168,10 @@ public class PrePostProcessor {
                 Rect rect = new Rect((int)(startX+left), (int)(startY+top), (int)(startX+right), (int)(startY+bottom));
                 float max_score = -1.0f;
                 int max_id = 0;
-                for (int i = 5; i < mOutputColumn; i++) {
+                for (int i = c + 5; i < c + mOutputColumn; i++) {
                     if (outputs[i] > max_score) {
                         max_score = outputs[i];
-                        max_id = i - 5;
+                        max_id = i - c - 5;
                     }
                 }
                 Result result = new Result(max_id, obj_conf, rect);

@@ -189,8 +189,8 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
       float y2 = results.get(i).rect.bottom;
       int class_id = results.get(i).classIndex;
 
-      if (!Arrays.asList(output_classes).contains(classes[class_id]))
-        continue;
+//      if (!Arrays.asList(output_classes).contains(classes[class_id]))
+//        continue;
 
       Log.d("snpe_engine", "x1, y1, x2, y2: " + x1 + y1 + x2 + y2);
 
