@@ -61,9 +61,9 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
   private int ROI_buffer1;
   private int ROI_buffer2;
   static final String[] inout = {"", "ROI1" , "", "ROI2"};
-  static final String[] classes = {"banana", "banana1", "blackberries", "raspberry", "lemon",
+  static final String[] classes = {"person", "person-like", "blackberries", "raspberry", "lemon",
           "lemon1", "grapes", "grapes1", "tomato", "tomato1", "apple", "apple1", "chilli", "chilli1"};
-  static final String[] output_classes = {"banana", "banana1", "apple", "apple1"};
+  static final String[] output_classes = {"person", "person-like", "apple", "apple1"};
   private float ROI1;
   private float ROI2;
   Application application;
@@ -92,7 +92,7 @@ public class SNPEObjectDetectionAPIModel implements Classifier {
     d.ROI_buffer2 = (int)(d.inputSize * 0.05);
     d.intValues = new int[d.inputSize * d.inputSize];
 
-    InputStream modelInputStream = assetManager.open("fv.dlc");
+    InputStream modelInputStream = assetManager.open("people.dlc");
     int streamLength = modelInputStream.available();
 
     d.builder = new SNPE.NeuralNetworkBuilder(application)
